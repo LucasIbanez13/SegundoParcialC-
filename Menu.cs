@@ -36,7 +36,7 @@ public class Menu
             {
                 case "1":
                     {
-                        agregarTurno.agregarDatos();
+                        agregarTurno.agregarPaciente();
                     }
                     break;
                 case "2":

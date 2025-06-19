@@ -20,6 +20,14 @@ public class AgregarTurno
     public void agregarPaciente()
     {
         Persona persona = agregarDatos();//Al llamar la funcion de arriba se retorna el elemento nuevaPersona
+        foreach (var listaPersona in listaPersonas)//hacmeos un forech
+        {
+            if (listaPersona.dni == persona.dni) //comparamos el dni que obtengamos del forech y comparamos con el de persona que es del nuevo objeto
+            {
+                Console.WriteLine("Ya existe un paciente con ese DNI.");
+                return; // Salir sin agregar
+            }
+        }
         listaPersonas.Add(persona);//aqui agregamos nomas con un metodo a la lista original
 
         Console.WriteLine("Paciente agregado:");
