@@ -1,0 +1,14 @@
+C:\Users\LucasPC\Desktop\SegundoParcialCsharp\bin\Debug\net9.0\SegundoParcialCsharp.exe
+C:\Users\LucasPC\Desktop\SegundoParcialCsharp\bin\Debug\net9.0\SegundoParcialCsharp.deps.json
+C:\Users\LucasPC\Desktop\SegundoParcialCsharp\bin\Debug\net9.0\SegundoParcialCsharp.runtimeconfig.json
+C:\Users\LucasPC\Desktop\SegundoParcialCsharp\bin\Debug\net9.0\SegundoParcialCsharp.dll
+C:\Users\LucasPC\Desktop\SegundoParcialCsharp\bin\Debug\net9.0\SegundoParcialCsharp.pdb
+C:\Users\LucasPC\Desktop\SegundoParcialCsharp\obj\Debug\net9.0\SegundoParcialCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LucasPC\Desktop\SegundoParcialCsharp\obj\Debug\net9.0\SegundoParcialCsharp.AssemblyInfoInputs.cache
+C:\Users\LucasPC\Desktop\SegundoParcialCsharp\obj\Debug\net9.0\SegundoParcialCsharp.AssemblyInfo.cs
+C:\Users\LucasPC\Desktop\SegundoParcialCsharp\obj\Debug\net9.0\SegundoParcialCsharp.csproj.CoreCompileInputs.cache
+C:\Users\LucasPC\Desktop\SegundoParcialCsharp\obj\Debug\net9.0\SegundoParcialCsharp.dll
+C:\Users\LucasPC\Desktop\SegundoParcialCsharp\obj\Debug\net9.0\refint\SegundoParcialCsharp.dll
+C:\Users\LucasPC\Desktop\SegundoParcialCsharp\obj\Debug\net9.0\SegundoParcialCsharp.pdb
+C:\Users\LucasPC\Desktop\SegundoParcialCsharp\obj\Debug\net9.0\SegundoParcialCsharp.genruntimeconfig.cache
+C:\Users\LucasPC\Desktop\SegundoParcialCsharp\obj\Debug\net9.0\ref\SegundoParcialCsharp.dll
