@@ -80,12 +80,49 @@ public class AgregarTurno
         int contadorPaciente = 1;
         foreach (var persona in listaCola)
         {
- 
-        Console.WriteLine($"Paciente {contadorPaciente++}: con DNI{persona.dni} {persona.nombre} {persona.hora}");
+
+            Console.WriteLine($"Paciente {contadorPaciente++}: con DNI{persona.dni} {persona.nombre} {persona.hora}");
 
         }
     }
 
+    public void pasarConsultorio()
+{
+    Console.WriteLine("Ingrese el DNI del paciente que va a ingresar al consultorio:");
+    int leerDni = Convert.ToInt32(Console.ReadLine());
+
+    bool encontrado = false;
+    Queue<Persona> nuevaCola = new Queue<Persona>();
+
+    while (listaCola.Count > 0)
+    {
+        Persona paciente = listaCola.Dequeue();
+
+        if (leerDni == paciente.dni && !encontrado)
+        {
+            Console.WriteLine($"Ingreso al médico: Paciente {paciente.nombre} DNI: {paciente.dni}");
+            Console.WriteLine("Ingrese tiempo transcurrido:");
+            int tiempoTranscurrido = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Presione una tecla para ingresar el siguiente paciente...");
+            Console.ReadKey();
+            Console.WriteLine($"El paciente demoró: {tiempoTranscurrido} minutos");
+
+            encontrado = true;
+            // No lo agregamos a la nueva cola, porque es el que pasó al consultorio
+        }
+        else
+        {
+            nuevaCola.Enqueue(paciente); // Este paciente queda en la cola
+        }
+    }
+
+    listaCola = nuevaCola; // Reemplazamos la cola original
+
+    if (!encontrado)
+    {
+        Console.WriteLine("No se encontró un paciente con ese DNI en la cola.");
+    }
+}
 
 
 

@@ -44,7 +44,6 @@ public class Menu
                 case "2":
                     {
                         agregarTurno.mostrarPacientes();
-                        agregarTurno.agregarPacienteAColaPorDni();
                     }
                     break;
                 case "3":

@@ -31,7 +31,7 @@ public class MenuConsultorio
 
                 case "3":
                     {
-                        
+                        agregarTurno.pasarConsultorio();
                     }
                     break;
                     case "4":
