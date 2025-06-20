@@ -6,6 +6,8 @@ public class Menu
         int corteMenuInicio;
         corteMenuInicio = 0;
         AgregarTurno agregarTurno = new AgregarTurno();
+        MenuConsultorio menuConsultorio = new MenuConsultorio();
+
 
 
         while (corteMenuInicio == 0)//Si esto es diferente a 0 se corta
@@ -16,9 +18,9 @@ public class Menu
 
             Console.WriteLine("2. Ver pacientes");
 
-            Console.WriteLine("3. Registrar Orden de llegada");//este no
+            Console.WriteLine("3. Ingresar al consultorio");//este no
 
-            Console.WriteLine("4. Registrar Orden de llegada");//este si
+            Console.WriteLine("4. Salir");//este si
 
 
             Console.WriteLine("Opcion: ");
@@ -27,7 +29,7 @@ public class Menu
 
             string opMenuInicial = Console.ReadLine();
 
-            if (opMenuInicial == "Hola" || opMenuInicial == "hola")//Aqui convierte el valor que ingrese en el valor correcto del switch, ejemplo si el profe selecciona la primera opcion que dice 1.Lucas, y si pone Lucas se ponga la opcion 1, o lucas
+            if (opMenuInicial == "Registrar" || opMenuInicial == "registrar")//Aqui convierte el valor que ingrese en el valor correcto del switch, ejemplo si el profe selecciona la primera opcion que dice 1.Lucas, y si pone Lucas se ponga la opcion 1, o lucas
             {
                 opMenuInicial = "1";
             }
@@ -42,12 +44,29 @@ public class Menu
                 case "2":
                     {
                         agregarTurno.mostrarPacientes();
+                        agregarTurno.agregarPacienteAColaPorDni();
                     }
                     break;
                 case "3":
                     {
+                        menuConsultorio.menuConsultorioCola(agregarTurno);
+                        agregarTurno.agregarPacienteAColaPorDni();
 
                     }
+                    break;
+                    case "5":
+                    {
+                        agregarTurno.agregarPacienteAColaPorDni();
+
+                    }
+                    
+                    break;
+                    case "6":
+                    {
+                        agregarTurno.verConsultorio();
+
+                    }
+                    
                     break;
                 case "4":
                     {

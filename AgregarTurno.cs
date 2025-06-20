@@ -1,6 +1,7 @@
 public class AgregarTurno
 {
-    List<Persona> listaPersonas = new List<Persona>();//Creamos la lista
+    public List<Persona> listaPersonas = new List<Persona>();//Creamos la lista
+    public Queue<Persona> listaCola = new Queue<Persona>();
 
     public Persona agregarDatos()//Manejamos el objeto Persona en una funcion en base a ese objeto
     {
@@ -47,4 +48,44 @@ public class AgregarTurno
             Console.WriteLine($"Nombre: {persona.nombre}, DNI: {persona.dni}, Hora: {persona.hora}");
         }
     }
+
+    public void agregarPacienteAColaPorDni()
+    {
+        Console.WriteLine("Ingrese el DNI del paciente que desea agregar a la cola:");
+        int dniBuscado = Convert.ToInt32(Console.ReadLine());
+
+        foreach (var persona in listaPersonas)
+        {
+            if (persona.dni == dniBuscado)
+            {
+                if (!listaCola.Contains(persona))
+                {
+                    listaCola.Enqueue(persona);
+                    Console.WriteLine($"Paciente con DNI {dniBuscado} agregado a la cola.");
+                }
+                else
+                {
+                    Console.WriteLine("Este paciente ya está en la cola.");
+                }
+                return;
+            }
+        }
+
+        Console.WriteLine("No se encontró ningún paciente con ese DNI en la lista.");
+    }
+    public void verConsultorio()
+    {
+        Console.WriteLine("Sala de espera consultorio");
+        int contadorPaciente = 1;
+        foreach (var persona in listaCola)
+        {
+ 
+        Console.WriteLine($"Paciente {contadorPaciente++}: con DNI{persona.dni} {persona.nombre} {persona.hora}agregado a la cola.");
+
+        }
+    }
+
+
+
+
 }
