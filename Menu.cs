@@ -12,7 +12,7 @@ public class Menu
 
         while (corteMenuInicio == 0)//Si esto es diferente a 0 se corta
         {
-            Console.WriteLine("Opciones del menu: ");
+            Console.WriteLine("Opciones de administracion ");
 
             Console.WriteLine("1. Registrar pacientes");//va este
 
@@ -50,7 +50,6 @@ public class Menu
                 case "3":
                     {
                         menuConsultorio.menuConsultorioCola(agregarTurno);
-                        agregarTurno.agregarPacienteAColaPorDni();
 
                     }
                     break;

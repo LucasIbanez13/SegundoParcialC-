@@ -71,16 +71,17 @@ public class AgregarTurno
             }
         }
 
-        Console.WriteLine("No se encontró ningún paciente con ese DNI en la lista.");
+        Console.WriteLine("No se encontro ningun paciente con ese DNI en la lista.");
+        Console.WriteLine("Debe registrarse en administracion");
+
     }
     public void verConsultorio()
     {
-        Console.WriteLine("Sala de espera consultorio");
         int contadorPaciente = 1;
         foreach (var persona in listaCola)
         {
  
-        Console.WriteLine($"Paciente {contadorPaciente++}: con DNI{persona.dni} {persona.nombre} {persona.hora}agregado a la cola.");
+        Console.WriteLine($"Paciente {contadorPaciente++}: con DNI{persona.dni} {persona.nombre} {persona.hora}");
 
         }
     }

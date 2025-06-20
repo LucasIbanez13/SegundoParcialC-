@@ -6,10 +6,10 @@ public class MenuConsultorio
 
         while (corteMenuConsultorio == 0)
         {
-            Console.WriteLine("1. Ingresar a cola de espera");
-            Console.WriteLine("2. Mostrar cola");
-            Console.WriteLine("3. Salir");
-            Console.WriteLine("");
+            Console.WriteLine("1. Ingresar a sala de espera");
+            Console.WriteLine("2. Mostrar sala de espera");
+            Console.WriteLine("3. Ingresar al consultorio");
+            Console.WriteLine("4. Salir");
 
             string opMenuConsultorio = Console.ReadLine();
 
@@ -17,19 +17,24 @@ public class MenuConsultorio
             {
                 case "1":
                     {
-                        Console.WriteLine("Lista de pacientes registrados:");
-                        agregarTurno.mostrarPacientes();
-
+                    Console.WriteLine("Ingreso a sala de espera");
+                    agregarTurno.agregarPacienteAColaPorDni();
                     }
                     break;
 
                 case "2":
                     {
-                        
+                        Console.WriteLine("Lista de pacientes ingresados: ");
+                        agregarTurno.verConsultorio();
                     }
                     break;
 
                 case "3":
+                    {
+                        
+                    }
+                    break;
+                    case "4":
                     {
                         corteMenuConsultorio = 1;
                     }
