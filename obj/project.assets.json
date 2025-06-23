@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LucasPC\\Desktop\\SegundoParcialCsharp\\SegundoParcialCsharp.csproj",
+      "projectUniqueName": "C:\\Users\\LucasPC\\Desktop\\cositocomue\\SegundoParcialC--master (2)\\SegundoParcialC--master\\SegundoParcialCsharp.csproj",
       "projectName": "SegundoParcialCsharp",
-      "projectPath": "C:\\Users\\LucasPC\\Desktop\\SegundoParcialCsharp\\SegundoParcialCsharp.csproj",
+      "projectPath": "C:\\Users\\LucasPC\\Desktop\\cositocomue\\SegundoParcialC--master (2)\\SegundoParcialC--master\\SegundoParcialCsharp.csproj",
       "packagesPath": "C:\\Users\\LucasPC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LucasPC\\Desktop\\SegundoParcialCsharp\\obj\\",
+      "outputPath": "C:\\Users\\LucasPC\\Desktop\\cositocomue\\SegundoParcialC--master (2)\\SegundoParcialC--master\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LucasPC\\AppData\\Roaming\\NuGet\\NuGet.Config"

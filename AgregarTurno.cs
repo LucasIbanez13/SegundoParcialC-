@@ -30,22 +30,32 @@ public class AgregarTurno
             }
         }
         listaPersonas.Add(persona);//aqui agregamos nomas con un metodo a la lista original
+        Console.WriteLine($"Paciente {persona.nombre} agregado al sistema.");
+        Console.WriteLine("Volviendo el menu principal...");
+        Thread.Sleep(3000);
+        Console.Clear();
 
-        Console.WriteLine("Paciente agregado:");
     }
 
     public void mostrarPacientes()//esta funcion es para mostrar los pacientes
     {
         if (listaPersonas.Count == 0)//si es igual a 0 que diga no hay nadie
         {
-            Console.WriteLine("No hay pacientes registrados.");
+            Console.WriteLine("No se hay pacientes registrados.");
+            Thread.Sleep(3000);
+            Console.Clear();
             return;
         }
 
-        Console.WriteLine("Listado de pacientes:");
+        Console.WriteLine("Lista de pacientes registrados: ");
         foreach (var persona in listaPersonas)//Aqui hacemos el forech y llamamos la lista original con los datos 
         {
+            Console.Clear();
+            Console.WriteLine("  Pacientes registrados  ");
             Console.WriteLine($"Nombre: {persona.nombre}, DNI: {persona.dni}, Hora: {persona.hora}");
+            Console.WriteLine("Pulse una tecla para continuar");
+            Console.ReadKey();
+            Console.Clear();
         }
     }
 
@@ -62,17 +72,25 @@ public class AgregarTurno
                 {
                     listaCola.Enqueue(persona);
                     Console.WriteLine($"Paciente con DNI {dniBuscado} agregado a la cola.");
+                    Thread.Sleep(1800);
+                    Console.Clear();
+
                 }
                 else
                 {
                     Console.WriteLine("Este paciente ya está en la cola.");
+                    Console.WriteLine("Presione una tecla para continuar...");
+                    Console.ReadKey();
                 }
                 return;
             }
         }
-
+        Console.Clear();
         Console.WriteLine("No se encontro ningun paciente con ese DNI en la lista.");
-        Console.WriteLine("Debe registrarse en administracion");
+        Console.WriteLine("Primero debe registrarse en administracion");
+        Console.WriteLine("Presione una tecla para continuar...");
+        Console.ReadKey();
+        Console.Clear();
 
     }
     public void verConsultorio()
@@ -90,6 +108,7 @@ public class AgregarTurno
 {
     Console.WriteLine("Ingrese el DNI del paciente que va a ingresar al consultorio:");
     int leerDni = Convert.ToInt32(Console.ReadLine());
+        Console.Clear();
 
     bool encontrado = false;
     Queue<Persona> nuevaCola = new Queue<Persona>();
@@ -101,7 +120,7 @@ public class AgregarTurno
         if (leerDni == paciente.dni && !encontrado)
         {
             Console.WriteLine($"Ingreso al médico: Paciente {paciente.nombre} DNI: {paciente.dni}");
-            Console.WriteLine("Ingrese tiempo transcurrido:");
+            Console.WriteLine("Ingrese tiempo transcurrido en el consultorio: ");
             int tiempoTranscurrido = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Presione una tecla para ingresar el siguiente paciente...");
             Console.ReadKey();
@@ -118,9 +137,11 @@ public class AgregarTurno
 
     listaCola = nuevaCola; // Reemplazamos la cola original
 
-    if (!encontrado)
-    {
-        Console.WriteLine("No se encontró un paciente con ese DNI en la cola.");
+        if (!encontrado)
+        {
+            Console.WriteLine("No se encontró un paciente con ese DNI en la cola.");
+            Console.WriteLine("Pulse una tecla para continuar...");
+            Console.ReadKey();
     }
 }
 
