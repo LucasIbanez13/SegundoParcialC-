@@ -3,37 +3,56 @@ public class AgregarTurno
     public List<Persona> listaPersonas = new List<Persona>();//Creamos la lista
     public Queue<Persona> listaCola = new Queue<Persona>();
 
-    public Persona agregarDatos()//Manejamos el objeto Persona en una funcion en base a ese objeto
+    public Persona agregarDatos()
+{
+    Persona nuevaPersona = new Persona();
+
+    // Validar nombre (solo letras y espacios)
+    bool nombreCorrecto = false;
+    while (!nombreCorrecto)
     {
-        Persona nuevaPersona = new Persona();//Creamos como una nueva lista para agregar esta persona a la lista original
-
         Console.WriteLine("Ingrese nombre:");
-        nuevaPersona.nombre = Console.ReadLine();
+        string input = Console.ReadLine();
 
-        bool band = true;
-        while (band == true)//bandera para balidar dni verificando que tengo 8 digitos, si cumple termina el while, sino continua
+        if (!string.IsNullOrWhiteSpace(input) && input.All(c => char.IsLetter(c) || char.IsWhiteSpace(c)))
         {
-            Console.WriteLine("Ingrese DNI:");
-            nuevaPersona.dni = Console.ReadLine();
-            int validarDni = nuevaPersona.dni.Length;//.length sirve para validar nuemeros de digitos concretos, solo se puede usar en string
-
-            if (validarDni < 7 || validarDni > 8)
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("El valor ingresado es incorrecto, intente nuevamente");
-                Console.WriteLine("Verifique que el DNI contenga 8 digitos.");
-                Console.ResetColor();
-            }
-            else
-            {
-                band = false;
-            }//la comprobacion funciona hasta 1 billon de unidades, despues de eso falla y rompe el codigo
+            nuevaPersona.nombre = input;
+            nombreCorrecto = true;
         }
-
-        nuevaPersona.hora = DateTime.Now;
-
-        return nuevaPersona;//Retornamos el objeto, osea que enviamos el objeto este
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("El nombre solo puede contener letras");
+            Console.ResetColor();
+        }
     }
+
+    // Validar DNI
+    bool band = true;
+    while (band)
+    {
+        Console.WriteLine("Ingrese DNI:");
+        nuevaPersona.dni = Console.ReadLine();
+        int validarDni = nuevaPersona.dni.Length;
+
+        if (validarDni < 7 || validarDni > 8)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("El valor ingresado es incorrecto, intente nuevamente");
+            Console.WriteLine("Verifique que el DNI contenga 8 digitos.");
+            Console.ResetColor();
+        }
+        else
+        {
+            band = false;
+        }
+    }
+
+    nuevaPersona.hora = DateTime.Now;
+
+    return nuevaPersona;
+}
+
 
     public void agregarPaciente()
     {
@@ -138,7 +157,7 @@ public class AgregarTurno
         foreach (var persona in listaCola)
         {
 
-            Console.WriteLine($"Paciente {contadorPaciente++}: con DNI{persona.dni} {persona.nombre} {persona.hora}");
+            Console.WriteLine($"Paciente {contadorPaciente++}: con DNI {persona.dni} {persona.nombre} {persona.hora}");
 
         }
     }

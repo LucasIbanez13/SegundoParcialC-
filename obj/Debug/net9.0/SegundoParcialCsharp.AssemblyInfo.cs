@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SegundoParcialCsharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acac76d807c0bafec1a0b95f8d78ea08bb2b693d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3357074037a505595df30f8fd564bf84058a436e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SegundoParcialCsharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SegundoParcialCsharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
