@@ -2,7 +2,7 @@ public class Persona
 {
 
         public string nombre;
-        public int dni;
+        public string dni;
         public DateTime hora;
 
 }

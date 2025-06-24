@@ -12,6 +12,7 @@ public class Menu
 
         while (corteMenuInicio == 0)//Si esto es diferente a 0 se corta
         {
+
             Console.Clear();                                  
 
             Console.WriteLine("Administracion Medica");
@@ -35,12 +36,24 @@ public class Menu
             {
                 opMenuInicial = "1";
             }
+            if (opMenuInicial == "Ver" || opMenuInicial == "ver"|| opMenuInicial == "Registrado"|| opMenuInicial == "registrado")//Aqui convierte el valor que ingrese en el valor correcto del switch, ejemplo si el profe selecciona la primera opcion que dice 1.Lucas, y si pone Lucas se ponga la opcion 1, o lucas
+            {
+                opMenuInicial = "2";
+            }
+            if (opMenuInicial == "consultorio" || opMenuInicial == "Consultorio")//Aqui convierte el valor que ingrese en el valor correcto del switch, ejemplo si el profe selecciona la primera opcion que dice 1.Lucas, y si pone Lucas se ponga la opcion 1, o lucas
+            {
+                opMenuInicial = "3";
+            }
+            if (opMenuInicial == "Salir" || opMenuInicial == "salir")//Aqui convierte el valor que ingrese en el valor correcto del switch, ejemplo si el profe selecciona la primera opcion que dice 1.Lucas, y si pone Lucas se ponga la opcion 1, o lucas
+            {
+                opMenuInicial = "4";
+            }
 
             switch (opMenuInicial)
             {
                 case "1":
                     {
-                        agregarTurno.agregarPaciente();                        
+                        agregarTurno.agregarPaciente();
                     }
                     break;
                 case "2":
@@ -52,7 +65,7 @@ public class Menu
                     {
                         menuConsultorio.menuConsultorioCola(agregarTurno);
 
-                    }                
+                    }
                     break;
                 case "4":
                     {

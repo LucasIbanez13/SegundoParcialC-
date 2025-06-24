@@ -42,3 +42,45 @@ C:\Users\LucasPC\Desktop\cositocomue\SegundoParcialC--master (2)\SegundoParcialC
 C:\Users\LucasPC\Desktop\cositocomue\SegundoParcialC--master (2)\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.pdb
 C:\Users\LucasPC\Desktop\cositocomue\SegundoParcialC--master (2)\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.genruntimeconfig.cache
 C:\Users\LucasPC\Desktop\cositocomue\SegundoParcialC--master (2)\SegundoParcialC--master\obj\Debug\net9.0\ref\SegundoParcialCsharp.dll
+C:\Users\Eduar\OneDrive\Escritorio\descarga domingo\SegundoParcialC--master (1)descarga del domingo\SegundoParcialC--master\bin\Debug\net9.0\SegundoParcialCsharp.exe
+C:\Users\Eduar\OneDrive\Escritorio\descarga domingo\SegundoParcialC--master (1)descarga del domingo\SegundoParcialC--master\bin\Debug\net9.0\SegundoParcialCsharp.deps.json
+C:\Users\Eduar\OneDrive\Escritorio\descarga domingo\SegundoParcialC--master (1)descarga del domingo\SegundoParcialC--master\bin\Debug\net9.0\SegundoParcialCsharp.runtimeconfig.json
+C:\Users\Eduar\OneDrive\Escritorio\descarga domingo\SegundoParcialC--master (1)descarga del domingo\SegundoParcialC--master\bin\Debug\net9.0\SegundoParcialCsharp.dll
+C:\Users\Eduar\OneDrive\Escritorio\descarga domingo\SegundoParcialC--master (1)descarga del domingo\SegundoParcialC--master\bin\Debug\net9.0\SegundoParcialCsharp.pdb
+C:\Users\Eduar\OneDrive\Escritorio\descarga domingo\SegundoParcialC--master (1)descarga del domingo\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eduar\OneDrive\Escritorio\descarga domingo\SegundoParcialC--master (1)descarga del domingo\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.AssemblyInfoInputs.cache
+C:\Users\Eduar\OneDrive\Escritorio\descarga domingo\SegundoParcialC--master (1)descarga del domingo\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.AssemblyInfo.cs
+C:\Users\Eduar\OneDrive\Escritorio\descarga domingo\SegundoParcialC--master (1)descarga del domingo\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.csproj.CoreCompileInputs.cache
+C:\Users\Eduar\OneDrive\Escritorio\descarga domingo\SegundoParcialC--master (1)descarga del domingo\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.dll
+C:\Users\Eduar\OneDrive\Escritorio\descarga domingo\SegundoParcialC--master (1)descarga del domingo\SegundoParcialC--master\obj\Debug\net9.0\refint\SegundoParcialCsharp.dll
+C:\Users\Eduar\OneDrive\Escritorio\descarga domingo\SegundoParcialC--master (1)descarga del domingo\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.pdb
+C:\Users\Eduar\OneDrive\Escritorio\descarga domingo\SegundoParcialC--master (1)descarga del domingo\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.genruntimeconfig.cache
+C:\Users\Eduar\OneDrive\Escritorio\descarga domingo\SegundoParcialC--master (1)descarga del domingo\SegundoParcialC--master\obj\Debug\net9.0\ref\SegundoParcialCsharp.dll
+C:\Users\Eduar\OneDrive\Escritorio\SegundoParcialC--master (1)DNI validado\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eduar\OneDrive\Escritorio\SegundoParcialC--master (1)DNI validado\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.AssemblyInfoInputs.cache
+C:\Users\Eduar\OneDrive\Escritorio\SegundoParcialC--master (1)DNI validado\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.AssemblyInfo.cs
+C:\Users\Eduar\OneDrive\Escritorio\SegundoParcialC--master (1)DNI validado\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.csproj.CoreCompileInputs.cache
+C:\Users\Eduar\OneDrive\Escritorio\SegundoParcialC--master (1)DNI validado\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.dll
+C:\Users\Eduar\OneDrive\Escritorio\SegundoParcialC--master (1)DNI validado\SegundoParcialC--master\obj\Debug\net9.0\refint\SegundoParcialCsharp.dll
+C:\Users\Eduar\OneDrive\Escritorio\SegundoParcialC--master (1)DNI validado\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.pdb
+C:\Users\Eduar\OneDrive\Escritorio\SegundoParcialC--master (1)DNI validado\SegundoParcialC--master\bin\Debug\net9.0\SegundoParcialCsharp.exe
+C:\Users\Eduar\OneDrive\Escritorio\SegundoParcialC--master (1)DNI validado\SegundoParcialC--master\bin\Debug\net9.0\SegundoParcialCsharp.deps.json
+C:\Users\Eduar\OneDrive\Escritorio\SegundoParcialC--master (1)DNI validado\SegundoParcialC--master\bin\Debug\net9.0\SegundoParcialCsharp.runtimeconfig.json
+C:\Users\Eduar\OneDrive\Escritorio\SegundoParcialC--master (1)DNI validado\SegundoParcialC--master\bin\Debug\net9.0\SegundoParcialCsharp.dll
+C:\Users\Eduar\OneDrive\Escritorio\SegundoParcialC--master (1)DNI validado\SegundoParcialC--master\bin\Debug\net9.0\SegundoParcialCsharp.pdb
+C:\Users\Eduar\OneDrive\Escritorio\SegundoParcialC--master (1)DNI validado\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.genruntimeconfig.cache
+C:\Users\Eduar\OneDrive\Escritorio\SegundoParcialC--master (1)DNI validado\SegundoParcialC--master\obj\Debug\net9.0\ref\SegundoParcialCsharp.dll
+C:\Users\LucasPC\Desktop\actualizaciones del lunes\actualizaciones del lunes\SegundoParcialC--master\bin\Debug\net9.0\SegundoParcialCsharp.exe
+C:\Users\LucasPC\Desktop\actualizaciones del lunes\actualizaciones del lunes\SegundoParcialC--master\bin\Debug\net9.0\SegundoParcialCsharp.deps.json
+C:\Users\LucasPC\Desktop\actualizaciones del lunes\actualizaciones del lunes\SegundoParcialC--master\bin\Debug\net9.0\SegundoParcialCsharp.runtimeconfig.json
+C:\Users\LucasPC\Desktop\actualizaciones del lunes\actualizaciones del lunes\SegundoParcialC--master\bin\Debug\net9.0\SegundoParcialCsharp.dll
+C:\Users\LucasPC\Desktop\actualizaciones del lunes\actualizaciones del lunes\SegundoParcialC--master\bin\Debug\net9.0\SegundoParcialCsharp.pdb
+C:\Users\LucasPC\Desktop\actualizaciones del lunes\actualizaciones del lunes\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LucasPC\Desktop\actualizaciones del lunes\actualizaciones del lunes\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.AssemblyInfoInputs.cache
+C:\Users\LucasPC\Desktop\actualizaciones del lunes\actualizaciones del lunes\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.AssemblyInfo.cs
+C:\Users\LucasPC\Desktop\actualizaciones del lunes\actualizaciones del lunes\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.csproj.CoreCompileInputs.cache
+C:\Users\LucasPC\Desktop\actualizaciones del lunes\actualizaciones del lunes\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.dll
+C:\Users\LucasPC\Desktop\actualizaciones del lunes\actualizaciones del lunes\SegundoParcialC--master\obj\Debug\net9.0\refint\SegundoParcialCsharp.dll
+C:\Users\LucasPC\Desktop\actualizaciones del lunes\actualizaciones del lunes\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.pdb
+C:\Users\LucasPC\Desktop\actualizaciones del lunes\actualizaciones del lunes\SegundoParcialC--master\obj\Debug\net9.0\SegundoParcialCsharp.genruntimeconfig.cache
+C:\Users\LucasPC\Desktop\actualizaciones del lunes\actualizaciones del lunes\SegundoParcialC--master\obj\Debug\net9.0\ref\SegundoParcialCsharp.dll
