@@ -162,10 +162,44 @@ public class AgregarTurno
                 Console.WriteLine($"Ingreso al médico: Paciente {paciente.nombre} DNI: {paciente.dni}");
                 Console.ResetColor();
                 Console.WriteLine("Ingrese tiempo transcurrido en el consultorio: ");
-                int tiempoTranscurrido = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Presione una tecla para ingresar el siguiente paciente...");
-                Console.ReadKey();
-                Console.WriteLine($"El paciente demoró: {tiempoTranscurrido} minutos");
+                
+
+bool bandTiempo = true;
+
+while (bandTiempo)
+{
+    Console.WriteLine("Ingrese tiempo transcurrido:");
+    string input = Console.ReadLine();
+
+    // Validar que solo haya dígitos
+    if (input.All(char.IsDigit) && input != "")
+    {
+        int tiempoTranscurrido = Convert.ToInt32(input);
+
+        if (tiempoTranscurrido >= 1 && tiempoTranscurrido <= 60)
+        {
+            Console.WriteLine("Presione una tecla para ingresar el siguiente paciente...");
+            Console.ReadKey();
+            Console.WriteLine($"El paciente demoro: {tiempoTranscurrido} minutos");
+            bandTiempo = false;
+        }
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("El numero debe estar entre 1 y 60 minutos");
+            Console.ResetColor();
+        }
+    }
+    else
+    {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine("Ingrese solo numeros");
+        Console.ResetColor();
+    }
+}
+
+                
+                
 
                 encontrado = true;
                 // No lo agregamos a la nueva cola, porque es el que pasó al consultorio
